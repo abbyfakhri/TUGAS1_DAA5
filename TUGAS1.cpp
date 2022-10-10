@@ -19,7 +19,7 @@ struct data maba[nmax]; // deklarasi variabel bertipe struct
 void tambah_data();     // prototype fungsi void
 void hapus_data();
 void tampilkan_data();
-void ubahData();
+
 
 void edit(){
     int n;
