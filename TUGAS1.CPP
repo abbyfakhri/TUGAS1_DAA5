@@ -1,6 +1,6 @@
 /* Contoh Program ke : 1 */
 /* Program : struktur data statis mahasiswa */
-#include <conio.h>
+#include <ncurses.h> // #include <conio.h> for windows
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
@@ -19,7 +19,8 @@ struct data maba[nmax]; // deklarasi variabel bertipe struct
 void tambah_data();     // prototype fungsi void
 void hapus_data();
 void tampilkan_data();
-main()
+void ubahData();
+int main()
 {
     int pil;
 menu:
